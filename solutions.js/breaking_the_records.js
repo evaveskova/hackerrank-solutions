@@ -26,12 +26,12 @@ function readLine() {
 
 // Start of solution
 function breakingRecords(scores) {
-    var high = scores[0];
-    var low = scores[0];
-    var highBroken = 0;
-    var lowBroken = 0;
+    let high = scores[0];
+    let low = scores[0];
+    let highBroken = 0;
+    let lowBroken = 0;
 
-    for (var i = 1; scores.length > i; i++) {
+    for (let i = 1; scores.length > i; i++) {
         if (scores[i] > high) {
             highBroken++;
             high = scores[i];
