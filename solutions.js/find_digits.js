@@ -38,7 +38,6 @@ function findDigits(n) {
     })
     return digitsDivisible;
 }
-
 // End of challenge solution
 
 function main() {
